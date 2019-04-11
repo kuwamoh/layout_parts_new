@@ -2,4 +2,118 @@
 
 /* 回答はここに書いてね */
 
+
+
+.float__box{
+  display: flex;
+}
+
+.float__1{
+  float: left;
+  width: 225px;
+  height: 50%;
+}
+
+.float__2{
+  float: left;
+  width: 225px;
+  margin-left: 50px;
+}
+
+.cf:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+
+
+
+
+.table{
+  display: table;
+}
+
+.table-cell{
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.cell__1{
+  width: 225px;
+
+}
+
+.cell__text2{
+  margin-left: 50px;
+}
+
+
+
+
+
+
+.inline__box{
+  vertical-align: middle;
+  display: flex;
+}
+
+.inline__text{
+  display: inline-block;
+  width: 225px;
+}
+
+.inline__text2{
+  display: inline-block;
+  width: 225px;
+  margin-left: 50px;
+}
+
+
+
+
+
+.flex__box{
+  display: flex;
+  justify-content: space-around;
+ 
+  
+}
+
+.flex__text1{
+  width: 225px;
+  box-sizing: border-box;
+}
+
+.flex__text2{
+  width: 225px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.mi__wrapper{
+  overflow: hidden;
+
+}
+
+.mi__box1{
+  float: left;
+  width: 300px;
+  margin-right: 50px;
+
+}
+
+.mi__box2{
+  float: right;
+  width: 100%;
+  margin-left: -350px;
+  padding-left: 350px;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
